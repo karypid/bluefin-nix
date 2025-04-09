@@ -32,6 +32,9 @@ sysctl -p
 # Systemd and Disable Repos
 /ctx/build_files/dx/09-cleanup-dx.sh
 
+# Nix mount point
+/ctx/build_files/dx/08-nix.sh
+
 # Clean Up
 echo "::group:: Cleanup"
 /ctx/build_files/shared/clean-stage.sh
